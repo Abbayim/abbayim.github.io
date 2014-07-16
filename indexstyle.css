@@ -1,25 +1,47 @@
 div {
 	height: 50%;
 	width: 50%;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	/*Add your CSS here!*/
 	display:block;
 	margin:0 auto;
-	background-color: #00064C;
-	font-family: 'Helvetica' sans-serif;
+	background-color: #746A62;
+	font-family: 'Futura' sans-serif;
 	color: #ffffff;
 	padding: 10px 10px;
 }
 div#prison {
-	background-color: #BD7000;
+	background-color: #C08354;
 
 }
+div#break {
+	background-color: C0B44B;
+	color:;
+}
+span {
+	background-color: B00000;
+	height: 100%;
+	width: 100%;
+}
 body {
-	color: #00064C;
+	background-color: #68B6C0;
+}
+
+h1 {
+	text-align: center;
+	/*font-family: 'Arial Black';*/
+	letter-spacing: -3px;
+	font-size: 40px;
+}
+h2 {
+	text-align: center;
+/*	font-family: 'Garamond';*/
+	letter-spacing: 2px;
 }
 
 a {
 	display: block;
+	color: #ffffff;
 }
 a:link{
 

@@ -1,5 +1,5 @@
 div {
-	height: 110%;
+	height: 50%;
 	width: 50%;
 	border-radius: 2px;
 	/*Add your CSS here!*/
@@ -8,6 +8,7 @@ div {
 	background-color: #00064C;
 	font-family: 'Helvetica' sans-serif;
 	color: #ffffff;
+	padding: 10px 10px;
 }
 div#prison {
 	background-color: #BD7000;

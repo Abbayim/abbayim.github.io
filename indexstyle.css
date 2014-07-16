@@ -40,6 +40,11 @@ h2 {
 	letter-spacing: 2px;
 	color: #A8BDDA;
 }
+h3 {
+	text-align: left;
+	letter-spacing: -1px;
+	color: #A8BDDA;
+}
 
 a {
 	display: block;

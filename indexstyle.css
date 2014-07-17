@@ -1,6 +1,5 @@
 div {
-	height: 50%;
-	width: 50%;
+	
 	/*border-radius: 10px;*/
 	/*Add your CSS here!*/
 	display:block;
@@ -8,11 +7,23 @@ div {
 	background-color: #22497D;
 	font-family: 'Futura' sans-serif;
 	color: #ffffff;
-	padding: 10px 10px;
+	padding: 20px 30px;
+}
+div.full {
+	height: 50%;
+	width: 50%;
+}
+div.half {
+	height: 50%;
+	width: 50%;
+	display:block;
+}
+div#hold {
+	background-color: #A8BDDA;
+	display: block;
 }
 div#prison {
 	background-color: #A73A2D;
-
 }
 div#break {
 	background-color: C0B44B;

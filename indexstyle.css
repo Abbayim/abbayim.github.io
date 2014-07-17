@@ -41,9 +41,10 @@ div#break {
 }
 
 .sqleft {
-	margin-top: 2%;
-	margin-right: 2.5%;
-	width: 47.5%;
+	/*margin-top: 2%;
+	margin-right: 2.5%;*/
+	margin: auto 0;
+	width: 50%;
 	height: 200px;
 	display: inline-block;
 	padding: 0 0;
@@ -54,9 +55,10 @@ div#break {
 }
 
 .sqright {
-	margin-top: 2%;
-	margin-left: 2.5%;
-	width: 47.5%;
+/*	margin-top: 2%;
+	margin-left: 2.5%;*/
+	margin: auto 0;
+	width: 50%;
 	height: 200px;
 	display: inline-block;
 	padding: 0 0;

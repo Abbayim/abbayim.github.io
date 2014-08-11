@@ -9,7 +9,8 @@ div {
 	margin:0 auto;
 	height: 50%;
 	width: 50%;
-		background-color: #22497D;
+	background-color: #22497D;
+	padding: 0 auto;
 
 }
 .half {

@@ -1,22 +1,25 @@
+body {
+	font-family: 'Futura';
+	color: #ffffff;
+}
+
 div {
-	
 	/*border-radius: 10px;*/
 	/*Add your CSS here!*/
 	font-family: 'Futura' sans-serif;
 	color: #ffffff;
+	border-radius: 10px;
 }
 .full {
 	margin:0 auto;
-	height: 50%;
-	width: 50%;
+	width: 600px;
 	background-color: #22497D;
-	padding: 0 auto;
-
+	padding: 10px 0px;
+	border-radius: 10px
 }
 .half {
 	margin:0 auto;
-	height: 50%;
-	width: 25%;
+	width: 40%;
 	display:block;
 		background-color: #22497D;
 
@@ -27,26 +30,36 @@ div#hold {
 }
 div#prison {
 	background-color: #A73A2D;
+	vertical-align: middle;
+	padding: 10px;
+	margin: 25px 20px 20px 0px;
 }
 div#break {
 	background-color: C0B44B;
-	color: blue;
+	colo r: blue;
+}
+div#resume {
+	background-color: #2B7174;
+	padding: 10px;
+	margin: 25px 0px 20px 20px;
 }
 
-.container {
-	margin:0 auto;
-	width: 50%;
-	display:block;
-	padding: 0 0;
-
+table {
+	margin: 0 auto;
+	width: 600px;
+}
+.mySquare {
+	width: 200;
+	height: 200;
+	vertical-align: top;
 }
 
 .sqleft {
 	/*margin-top: 2%;
 	margin-right: 2.5%;*/
-	margin: auto 0;
-	width: 50%;
-	height: 200px;
+	margin: 15px 25px 0 auto;
+	width: 250px;
+	height: 250px;
 	display: inline-block;
 	padding: 0 0;
 	background-color: #A73A2D;
@@ -58,14 +71,15 @@ div#break {
 .sqright {
 /*	margin-top: 2%;
 	margin-left: 2.5%;*/
-	margin: auto 0;
-	width: 50%;
-	height: 200px;
+	margin: 15px auto 0 25px;
+	width: 250px;
+	height: 250px;
 	display: inline-block;
 	padding: 0 0;
 	background-color: #2B7174;
 	text-align: center;
 	vertical-align: middle;
+	float: right;
 }
 .text {
 	vertical-align: middle;
@@ -89,7 +103,7 @@ h1 {
 }
 
 p {
-	padding: 10px 10px;
+	padding: 5px 10px;
 }
 h2 {
 	text-align: center;

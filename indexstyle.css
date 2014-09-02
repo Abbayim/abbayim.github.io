@@ -100,6 +100,7 @@ h1 {
 	letter-spacing: -3px;
 	font-size: 40px;
 	color: #A8BDDA;
+	display: inline;
 }
 
 p {
@@ -122,4 +123,11 @@ a {
 }
 a:link{
 
+}
+
+img {
+	border-radius: 50%;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 10px;
 }

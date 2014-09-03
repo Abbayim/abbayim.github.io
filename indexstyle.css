@@ -126,8 +126,12 @@ a:link{
 }
 
 img {
-	border-radius: 15%;
+	border-radius: 100%;
 	margin: 0 auto;
 	display: inline-block;
 	padding: 0 10px;
+}
+
+img#me {
+	padding: 0 0 0 10px;
 }
